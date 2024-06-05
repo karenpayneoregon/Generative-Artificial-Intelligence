@@ -1,5 +1,7 @@
 ﻿# Debugging
 
+![Exception](assets/exception.png)
+
 When GitHub Copilot is active and a runtime exception is raised a developer can click, Ask Copilot to get suggestions which is what the project is for. Once asking coilot a window opens with recommendations and in most cases why the exception was thrown.
 
 The connection string is deliberately setup to point to a non-existing SQL-Server instance and the default time out has been altered from the original which is 30 seconds down to two seconds.

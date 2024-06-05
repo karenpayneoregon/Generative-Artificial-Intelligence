@@ -1,5 +1,7 @@
 # About
 
+![a](assets/title.png)
+
 This Visual Studio solution is for demonstrating generative AI using various Visual Studio extensions.
 
 ## Security
