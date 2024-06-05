@@ -55,4 +55,9 @@ To invoke <kbd>ALT</kbd> + <kbd>/</kbd>
 
 ![s](assets/figure3.png)
 
+## Resources
+
+- [AI-assisted development in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/ai-assisted-development-visual-studio?view=vs-2022)
+- [Debug your app with GitHub Copilot in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/debugger/debug-with-copilot?view=vs-2022)
+
 
