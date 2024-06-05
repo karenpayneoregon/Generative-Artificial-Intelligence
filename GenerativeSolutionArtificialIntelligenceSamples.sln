@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45DCE45C-D7F3-4662-AB0D-559514F18121}"
+	ProjectSection(SolutionItems) = preProject
+		documentation.md = documentation.md
+		Questions.txt = Questions.txt
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesClassesExamples", "InterfacesClassesExamples\InterfacesClassesExamples.csproj", "{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD8ED23-B889-41C0-AEE4-2BD85A9C7BDE}
+	EndGlobalSection
+EndGlobal
