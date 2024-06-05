@@ -1,5 +1,4 @@
-﻿using DapperBirthdaysComputedColumns.Models;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 
 namespace DapperBirthdaysComputedColumns.Classes;
 internal class SetupServices

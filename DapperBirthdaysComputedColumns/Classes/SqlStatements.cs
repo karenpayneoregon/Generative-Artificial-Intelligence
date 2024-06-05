@@ -1,6 +1,9 @@
 ﻿namespace DapperBirthdaysComputedColumns.Classes;
 internal class SqlStatements
 {
+    /// <summary>
+    /// Get all records, and yes this can be a stored procedure 😍
+    /// </summary>
     public static string GetBirthdays =>
         """
         SELECT Id
@@ -8,6 +11,6 @@ internal class SqlStatements
             ,LastName
             ,BirthDate
             ,YearsOld
-        FROM BirthDaysDatabase.dbo.BirthDays
+        FROM dbo.BirthDays
         """;
 }

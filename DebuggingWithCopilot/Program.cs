@@ -1,10 +1,16 @@
-﻿namespace DebuggingWithCopilot;
+﻿using DebuggingWithCopilot.Classes;
+
+namespace DebuggingWithCopilot;
 
 internal partial class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        AnsiConsole.MarkupLine("[yellow]Hello[/]");
+        SpectreConsoleHelpers.HereWeGo();
+        await Task.Delay(2000);
+
+        var fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "NoSuchFile.txt");
+        var lines = await File.ReadAllLinesAsync(fileName);
         Console.ReadLine();
     }
 }
