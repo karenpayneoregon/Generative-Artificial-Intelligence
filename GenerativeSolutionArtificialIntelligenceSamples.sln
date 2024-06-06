@@ -18,6 +18,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debugging samples", "Debugg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperBirthdaysComputedColumns", "DapperBirthdaysComputedColumns\DapperBirthdaysComputedColumns.csproj", "{02D78850-F5A4-4295-BDEB-08216CCF1773}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Today", "Today", "{997162AA-DAEF-419C-9849-EC08D7F0BC90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Perdone", "Perdone", "{E4CDDB96-3C2A-4403-885F-215184B55F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{111D53EB-2DE4-4867-8AE4-9360A79FEB23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsSample", "GenericsSample\GenericsSample.csproj", "{C8777C78-9187-49CD-BF10-8D3C9236186F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,13 +44,24 @@ Global
 		{02D78850-F5A4-4295-BDEB-08216CCF1773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D78850-F5A4-4295-BDEB-08216CCF1773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D78850-F5A4-4295-BDEB-08216CCF1773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111D53EB-2DE4-4867-8AE4-9360A79FEB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111D53EB-2DE4-4867-8AE4-9360A79FEB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111D53EB-2DE4-4867-8AE4-9360A79FEB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111D53EB-2DE4-4867-8AE4-9360A79FEB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8777C78-9187-49CD-BF10-8D3C9236186F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8777C78-9187-49CD-BF10-8D3C9236186F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8777C78-9187-49CD-BF10-8D3C9236186F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8777C78-9187-49CD-BF10-8D3C9236186F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{04BE1FC4-B752-4A0D-84A8-FEB27CC6383E} = {997162AA-DAEF-419C-9849-EC08D7F0BC90}
 		{115483CE-538D-44B3-ABBE-92BC5340DDC0} = {6248934B-6C56-4BAB-BDDD-F3A2C577C2B7}
 		{02D78850-F5A4-4295-BDEB-08216CCF1773} = {6248934B-6C56-4BAB-BDDD-F3A2C577C2B7}
+		{111D53EB-2DE4-4867-8AE4-9360A79FEB23} = {E4CDDB96-3C2A-4403-885F-215184B55F75}
+		{C8777C78-9187-49CD-BF10-8D3C9236186F} = {997162AA-DAEF-419C-9849-EC08D7F0BC90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FD8ED23-B889-41C0-AEE4-2BD85A9C7BDE}
