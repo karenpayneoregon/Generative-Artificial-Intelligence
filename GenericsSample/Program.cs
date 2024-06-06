@@ -6,7 +6,9 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        BetweenSample();
+        var sentence = "      How        Long  is this    ";
+        var result = sentence.RemoveDoubleWhitespace();
+        var result1 = sentence.RemoveExtraWhitespace();
     }
     private static void BetweenSample()
     {

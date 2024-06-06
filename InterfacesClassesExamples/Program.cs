@@ -1,4 +1,4 @@
-﻿using InterfacesClassesExamples.LanguageExtension;
+﻿
 
 namespace InterfacesClassesExamples;
 
