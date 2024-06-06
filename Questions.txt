@@ -1,0 +1,1 @@
+Create a method which accepts a social security value as a string and returns social security value with the first five digits masked with an X character
