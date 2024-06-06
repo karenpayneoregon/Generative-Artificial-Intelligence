@@ -1,14 +1,9 @@
-﻿using System;
-using System.ComponentModel;
+﻿namespace InterfacesClassesExamples;
 
-namespace InterfacesClassesExamples
+internal partial class Program
 {
-    internal partial class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
-
-    
+}
