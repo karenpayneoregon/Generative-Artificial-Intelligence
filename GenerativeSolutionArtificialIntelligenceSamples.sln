@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45DCE45C-D7F3-4662-AB0D-559514F18121}"
 	ProjectSection(SolutionItems) = preProject
 		documentation.md = documentation.md
+		explain.md = explain.md
+		improveCode.md = improveCode.md
 		Questions.txt = Questions.txt
 		readme.md = readme.md
 	EndProjectSection
