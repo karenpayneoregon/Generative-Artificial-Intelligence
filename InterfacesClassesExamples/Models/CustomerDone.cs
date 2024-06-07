@@ -1,8 +1,9 @@
 using System.ComponentModel;
+using InterfacesClassesExamples.Interfaces;
 
 namespace InterfacesClassesExamples.Models
 {
-    public class Customer : IBase<Customer>, INotifyPropertyChanged
+    public class CustomerDone : IBaseDone<CustomerDone>, INotifyPropertyChanged
     {
         private int _id;
         private string _firstName;
@@ -72,17 +73,18 @@ namespace InterfacesClassesExamples.Models
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public void Create(Customer customer)
+
+        public CustomerDone GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Customer Read(int id)
+        public void Insert(CustomerDone entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Customer customer)
+        public void Update(CustomerDone entity)
         {
             throw new NotImplementedException();
         }

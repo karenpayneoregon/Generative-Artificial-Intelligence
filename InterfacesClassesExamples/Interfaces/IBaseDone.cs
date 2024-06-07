@@ -1,6 +1,6 @@
 ﻿namespace InterfacesClassesExamples.Interfaces;
 
-public interface IBase<T>
+public interface IBaseDone<T>
 {
     T GetById(int id);
     void Insert(T entity);

@@ -19,4 +19,9 @@ Works
 
 Create a public crud generic interface named IBase under Program.cs. create a public class named Customer which implements IBase with the following properties, Id, FirstName, LastName, Email and BirthDate as DateOnly and implement INotifyPropertyChanged for each property
 
-=========================================================================================================
+---
+Works but needs assistance from R#
+
+- Do it in Program.cs than in Works.cs, not sync vs async
+
+Create a public crud generic interface named IBase with a contraint on T. create a public class named Customer which implements IBase with the following properties, Id, FirstName, LastName, Email and BirthDate as DateOnly and implement INotifyPropertyChanged for each property
