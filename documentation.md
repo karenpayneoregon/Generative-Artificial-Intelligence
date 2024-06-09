@@ -1,8 +1,8 @@
-# Documenting code
+## Documenting code
 
-Developers here tend not to document code which in some cases means that other developers may not understand the purpose of a class or method.
+Developers here tend not to document code which in some cases means that other developers may not understand the purpose of a class or method. Even when a method name is meaningful the method should be documented for several reasons, first, when a code base will have help generated from XML documentation and for clarification of usage and meaning of parameters and return types are a few reasons to document code.
 
-## Example
+### Example 1
 
 Here is a method which is easy to understand.
 
@@ -38,4 +38,7 @@ public static class DateTimeExtensions
 Much better with proper documentation from Copilot.
 
 ![d2](assets/D2.png)
+
+### Example 2
+
 
