@@ -21,6 +21,8 @@ public static class StringExtensions
                 StringSplitOptions.RemoveEmptyEntries));
 
     // Copilot 2
+    // create a language extension to remove extra whitespace from a string
+    // Uses Span<char> to avoid creating a new string (but does on return)
     [DebuggerStepThrough]
     public static string RemoveExtraWhitespace(this string input)
     {
