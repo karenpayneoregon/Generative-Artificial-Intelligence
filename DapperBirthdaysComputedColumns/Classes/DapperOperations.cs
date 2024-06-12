@@ -11,7 +11,7 @@ internal class DapperOperations
     public DapperOperations()
     {
         /*
-         * This would set the command timeout which will throw a object not set to an instance of an object.
+         * This would set the command timeout which will throw an object not set to an instance of an object.
          * I elected to not use this as GitHub Copilot will spit out a good message but not good for this
          * demonstration.
          *

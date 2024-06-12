@@ -11,7 +11,7 @@ namespace GenericsSample.LanguageExtension;
 /// </summary>
 public static class StringExtensions
 {
-    // Copilot
+    // Copilot 1
     // create a language extension to remove double whitespace from a string
     // Karen formated code and set as an expression body
     [DebuggerStepThrough]
@@ -20,6 +20,7 @@ public static class StringExtensions
             input.Split(' ', 
                 StringSplitOptions.RemoveEmptyEntries));
 
+    // Copilot 2
     [DebuggerStepThrough]
     public static string RemoveExtraWhitespace(this string input)
     {

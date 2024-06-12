@@ -1,8 +1,5 @@
 ﻿namespace InterfacesClassesExamplesLibrary;
-
-public class Class1
+internal class Dummy
 {
-
 }
-
 

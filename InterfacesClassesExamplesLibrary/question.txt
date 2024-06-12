@@ -1,0 +1,16 @@
+Create a public crud generic interface named IBase.  create a public class named Customer which implements IBase with the following properties, Id, FirstName, LastName, Email and BirthDate as DateOnly and implement INotifyPropertyChanged for each property
+
+
+
+---------------------------------------------------------------------------------------------
+Create a public crud generic interface named IBase.  
+create a public class named Customer which 
+	implements IBase with the following properties, Id, FirstName, LastName, Email and BirthDate as DateOnly and implement INotifyPropertyChanged for each property
+
+
+What is an interface?
+	An interface defines a contract. Any class, record or struct that implements that contract must provide an implementation of the members defined in the interface. 
+	An interface may define a default implementation for members. 
+
+What is INotifyPropertyChanged?
+	Notifies clients that a property value has changed.What is the purpose of INotifyPropertyChanged?

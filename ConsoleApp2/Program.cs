@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp2;
+﻿using static ConsoleApp2.Helpers;
+
+namespace ConsoleApp2;
 
 /// <summary>
 /// Copilot question
@@ -12,19 +14,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        //string[] exclude = ["AJ", "AK", "DG"];
-        //string result = "AC";
-
-
-
-        //for (int index = 0; index < 100; index++)
-        //{
-        //    var (good, data) = IncrementLetters(result, exclude);
-        //    result = data;
-        //    Console.WriteLine(good ? data : $"\t{data}");
-        //}
+ 
 
         Console.WriteLine(IncrementString("AA-W01"));
+        Console.WriteLine(NextValue("AA-W01"));
         Console.ReadLine();
     }
 
