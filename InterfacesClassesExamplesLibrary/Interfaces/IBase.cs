@@ -1,10 +1,9 @@
-namespace InterfacesClassesExamplesLibrary
+﻿namespace InterfacesClassesExamplesLibrary.Interfaces;
+
+public interface IBase<T> where T : class
 {
-    public interface IBase<T> where T : class
-    {
-        T GetById(int id);
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
-    }
+    T GetById(int id);
+    void Add(T entity);
+    void Update(T entity);
+    void Delete(T entity);
 }

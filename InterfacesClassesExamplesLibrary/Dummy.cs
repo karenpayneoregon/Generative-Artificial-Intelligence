@@ -2,4 +2,3 @@
 internal class Dummy
 {
 }
-

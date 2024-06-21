@@ -2,6 +2,7 @@ Create a public crud generic interface named IBase.  create a public class named
 
 
 
+
 ---------------------------------------------------------------------------------------------
 Create a public crud generic interface named IBase.  
 create a public class named Customer which 

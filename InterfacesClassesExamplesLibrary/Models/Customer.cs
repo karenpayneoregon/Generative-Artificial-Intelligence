@@ -1,108 +1,105 @@
 using System.ComponentModel;
+using InterfacesClassesExamplesLibrary.Interfaces;
 #nullable disable
-namespace InterfacesClassesExamplesLibrary.Models;
-
-public class Customer : IBase<Customer>, INotifyPropertyChanged
+namespace InterfacesClassesExamplesLibrary.Models
 {
-    private int _id;
-    private string _firstName;
-    private string _lastName;
-    private string _email;
-    private DateOnly _birthDate;
 
-    public int Id
+
+    public class Customer : IBase<Customer>, INotifyPropertyChanged
     {
-        get { return _id; }
-        set
+        private int _id;
+        private string _firstName;
+        private string _lastName;
+        private string _email;
+        private DateOnly _birthDate;
+
+        public int Id
         {
-            if (_id != value)
+            get { return _id; }
+            set
             {
-                _id = value;
-                OnPropertyChanged(nameof(Id));
+                if (_id != value)
+                {
+                    _id = value;
+                    OnPropertyChanged(nameof(Id));
+                }
             }
         }
-    }
-
-    public string FirstName
-    {
-        get { return _firstName; }
-        set
+        public string FirstName
         {
-            if (_firstName != value)
+            get { return _firstName; }
+            set
             {
-                _firstName = value;
-                OnPropertyChanged(nameof(FirstName));
+                if (_firstName != value)
+                {
+                    _firstName = value;
+                    OnPropertyChanged(nameof(FirstName));
+                }
             }
         }
-    }
-
-    public string LastName
-    {
-        get { return _lastName; }
-        set
+        public string LastName
         {
-            if (_lastName != value)
+            get { return _lastName; }
+            set
             {
-                _lastName = value;
-                OnPropertyChanged(nameof(LastName));
+                if (_lastName != value)
+                {
+                    _lastName = value;
+                    OnPropertyChanged(nameof(LastName));
+                }
             }
         }
-    }
-
-    public string Email
-    {
-        get { return _email; }
-        set
+        public string Email
         {
-            if (_email != value)
+            get { return _email; }
+            set
             {
-                _email = value;
-                OnPropertyChanged(nameof(Email));
+                if (_email != value)
+                {
+                    _email = value;
+                    OnPropertyChanged(nameof(Email));
+                }
             }
         }
-    }
-
-    public DateOnly BirthDate
-    {
-        get { return _birthDate; }
-        set
+        public DateOnly BirthDate
         {
-            if (_birthDate != value)
+            get { return _birthDate; }
+            set
             {
-                _birthDate = value;
-                OnPropertyChanged(nameof(BirthDate));
+                if (_birthDate != value)
+                {
+                    _birthDate = value;
+                    OnPropertyChanged(nameof(BirthDate));
+                }
             }
         }
-    }
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        public Customer GetById(int id)
+        {
+            // Implementation of GetById method
+            throw new NotImplementedException();
+        }
 
-    public event PropertyChangedEventHandler PropertyChanged;
+        public void Add(Customer entity)
+        {
+            // Implementation of Add method
+            throw new NotImplementedException();
+        }
 
-    protected virtual void OnPropertyChanged(string propertyName)
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
+        public void Update(Customer entity)
+        {
+            // Implementation of Update method
+            throw new NotImplementedException();
+        }
 
-    public Customer GetById(int id)
-    {
-        // Implementation of GetById method
-        throw new NotImplementedException();
-    }
-
-    public void Add(Customer entity)
-    {
-        // Implementation of Add method
-        throw new NotImplementedException();
-    }
-
-    public void Update(Customer entity)
-    {
-        // Implementation of Update method
-        throw new NotImplementedException();
-    }
-
-    public void Delete(Customer entity)
-    {
-        // Implementation of Delete method
-        throw new NotImplementedException();
+        public void Delete(Customer entity)
+        {
+            // Implementation of Delete method
+            throw new NotImplementedException();
+        }
     }
 }

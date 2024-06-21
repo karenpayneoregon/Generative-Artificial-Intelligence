@@ -5,6 +5,7 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45DCE45C-D7F3-4662-AB0D-559514F18121}"
 	ProjectSection(SolutionItems) = preProject
+		BingNoteBookQuestions.md = BingNoteBookQuestions.md
 		documentation.md = documentation.md
 		explain.md = explain.md
 		improveCode.md = improveCode.md
@@ -32,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsSample", "GenericsS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3822C524-F298-4187-B8AA-67474085B894}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{BF17276F-BA46-43DC-90A6-7303B5B30983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{BF17276F-BA46-43DC-90A6-7303B5B30983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesClassesExamplesLibrary", "InterfacesClassesExamplesLibrary\InterfacesClassesExamplesLibrary.csproj", "{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesClassesExamplesLibrary", "InterfacesClassesExamplesLibrary\InterfacesClassesExamplesLibrary.csproj", "{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Experiments", "Experiments", "{F6190C9B-1294-45C5-AF82-14D6D18B123B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

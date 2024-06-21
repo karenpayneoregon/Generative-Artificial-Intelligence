@@ -1,0 +1,4 @@
+- Create a generic crud interface named IBase and a customer class which implements IBase along with implementing INotifyPropertyChanged
+- Create a generic crud interface using async named IBase and a customer class which implements IBase along with implementing INotifyPropertyChanged
+- Using C# create a language extension method to calculate difference between two dates by month, days and year
+- Using ColdFusion create a class for calculating difference between two dates
