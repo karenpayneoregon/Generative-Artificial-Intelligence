@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesClassesExamplesLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Experiments", "Experiments", "{F6190C9B-1294-45C5-AF82-14D6D18B123B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Translations", "Translations", "{C034B4A9-2D5A-4AD6-A9DB-161C8FB1D07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translate1", "Translate1\Translate1.csproj", "{8D6E888B-4D54-4FE5-90BE-922DB21D0450}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6E888B-4D54-4FE5-90BE-922DB21D0450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6E888B-4D54-4FE5-90BE-922DB21D0450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6E888B-4D54-4FE5-90BE-922DB21D0450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6E888B-4D54-4FE5-90BE-922DB21D0450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{3822C524-F298-4187-B8AA-67474085B894} = {997162AA-DAEF-419C-9849-EC08D7F0BC90}
 		{BF17276F-BA46-43DC-90A6-7303B5B30983} = {997162AA-DAEF-419C-9849-EC08D7F0BC90}
 		{35FAFA9C-06F1-451E-B9C7-B2332A7D0B8D} = {997162AA-DAEF-419C-9849-EC08D7F0BC90}
+		{8D6E888B-4D54-4FE5-90BE-922DB21D0450} = {C034B4A9-2D5A-4AD6-A9DB-161C8FB1D07A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FD8ED23-B889-41C0-AEE4-2BD85A9C7BDE}
